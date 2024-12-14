@@ -114,3 +114,17 @@ margin: 20px 0;
   margin: 20px 0;
   text-align: center;
 }
+
+.about-poster {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.poster-image {
+  max-width: 20%;
+  height: auto;
+  border: 2px solid white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
