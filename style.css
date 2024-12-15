@@ -1,6 +1,7 @@
 .bg-img {
   background-image: url("images/club.webp");
   min-height: 380px;
+  padding-top: 100px;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -57,7 +58,7 @@ body{
 h2{
   color: #f2f2f2;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 footer{
@@ -127,4 +128,367 @@ margin: 20px 0;
   border: 2px solid white;
   box-shadow: 0 4px 8px rgba(0,0,0,0.5);
   border-radius: 10px;
+}
+
+/* Discography Section */
+.discography-section {
+  text-align: center;
+  margin: 50px auto;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.discography-section .title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.discography-section .description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin: 20px auto;
+  width: 60%;
+}
+
+/* Buy Online Section */
+.buy-online h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.buy-online p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.itunes-btn, .spotify-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.itunes-btn {
+  background-color: #28a428;
+  color: white;
+}
+
+.spotify-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.itunes-btn:hover {
+  background-color: #34c234;
+}
+
+.spotify-btn:hover {
+  background-color: #ddd;
+}
+
+/* Timeline Section */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 600px;
+}
+
+.timeline-item img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.timeline-item img:hover {
+  transform: scale(1.05);
+}
+
+.timeline-item p {
+  font-size: 1rem;
+  color: white;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* General Styling */
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #f2f2f2;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  margin: 10px auto;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+/* Events Gallery Section */
+.events-gallery {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.gallery-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Next Event Section */
+.next-event {
+  background-color: #222;
+  padding: 40px 20px;
+  text-align: center;
+  margin: 40px 0;
+  border-radius: 10px;
+}
+
+.next-event p {
+  margin: 10px 0;
+}
+
+.ticket-container {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+gap: 20px;
+max-width: 600px;
+margin: 0 auto;
+padding-left: 550px;
+}
+
+.ticket-img {
+  width: 400px;
+  height: auto;
+}
+
+.get-ticket-btn {
+  background-color: #28a428;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.get-ticket-btn:hover {
+  background-color: #34c234;
+}
+
+/* Subscribe Section */
+.subscribe-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.subscribe-form button {
+  background-color: #28a428;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #34c234;
+}
+
+/* Event Audio Section */
+.event-audio {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.event-audio h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.event-audio p {
+  margin-bottom: 20px;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+audio {
+  width: 80%;
+  max-width: 500px;
+  outline: none;
+}
+
+/* Main Section Styles */
+.book-tickets {
+  text-align: center;
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 600px;
+}
+
+.book-tickets h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.book-tickets p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.booking-form {
+  margin-top: 20px;
+}
+
+.booking-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+}
+
+.booking-form input,
+.booking-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.booking-form textarea {
+  height: 150px;
+}
+
+.send-btn {
+  background-color: #28a428;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+.send-btn:hover {
+  background-color: #34c234;
+}
+
+
+/* Social Media */
+.social-media {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.social-media h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #34c234;
+}
+
+.social-icon a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Class for each icon */
+.social-icon.facebook {
+  background-color: #3b5998; /* Facebook green */
+}
+
+.social-icon.instagram {
+  background-color: #e4405f; /* Instagram green */
+}
+
+.social-icon.twitter {
+  background-color: #00acee; /* Twitter green */
+}
+
+.social-icon.youtube {
+  background-color: #ff0000; /* YouTube green */
 }

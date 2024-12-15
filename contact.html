@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mariia Yanovska Final Project</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Add Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
@@ -22,7 +24,46 @@
     </header>
 
     <main>
-      
+       <!-- Book Tickets Section -->
+       <section class="book-tickets">
+        <h1>Book Your Tickets Now</h1>
+        <p>Fill in the form to book your place at the upcoming shows.</p>
+        
+        <form action="#" method="POST" class="booking-form">
+            <label for="name">Enter Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+            <label for="email">Enter Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+            <label for="message">Enter Your Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            
+            <button type="submit" class="send-btn">Send</button>
+        </form>
+    </section>
+
+    <!-- Social Media -->
+<section class="social-media">
+  <h2>Follow Us</h2>
+  <div class="social-icons">
+      <div class="social-icon facebook">
+          <a href="https://www.facebook.com" class="fab fa-facebook-f" target="_blank"></a>
+      </div>
+      <div class="social-icon instagram">
+          <a href="https://www.instagram.com" class="fab fa-instagram" target="_blank"></a>
+      </div>
+      <div class="social-icon twitter">
+          <a href="https://www.twitter.com" class="fab fa-twitter" target="_blank"></a>
+      </div>
+      <div class="social-icon youtube">
+          <a href="https://www.youtube.com" class="fab fa-youtube" target="_blank"></a>
+      </div>
+  </div>
+</section>
+</main>
+
+
     </main>
 
     <footer class="gallery-footer">
